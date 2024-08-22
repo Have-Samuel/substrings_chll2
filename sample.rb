@@ -22,3 +22,13 @@ substrings("monkeykey", dictionary2)
 # Why do it return 'keykey' in the result?
 # It returns 'keykey' in the result because 'key' is a substring of 'monkeykey' and 'keykey' is a substring of 'monkeykey'
 { "monkey" => 1, "key" => 1, "monkeykey" => 1, "keykey" => 1 }
+
+# Make sure you method can handle multiple words
+dictionary3 = ["marcedes", "benz", "marcedesbenz",
+              "benzmarcedes", "marcedesmarcedes",
+              "benzbenz", "benzmarcedes", "marcedesbenz",
+              "benzbenzbenz", "marcedesmarcedesmarcedes"]
+
+substrings("marcedesbenz", "benzmarcedes", "marcedesbenz", dictionary3)
+# Why does it return 'marcedesbenz' in the result?
+{ "marcedes" => 2, "benz" => 2, "marcedesbenz" => 2, "benzmarcedes" => 2 }
