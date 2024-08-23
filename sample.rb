@@ -32,3 +32,6 @@ dictionary3 = ["marcedes", "benz", "marcedesbenz",
 substrings("marcedesbenz", "benzmarcedes", "marcedesbenz", dictionary3)
 # Why does it return 'marcedesbenz' in the result?
 { "marcedes" => 2, "benz" => 2, "marcedesbenz" => 2, "benzmarcedes" => 2 }
+
+# Changing a string into an array of substrings
+
