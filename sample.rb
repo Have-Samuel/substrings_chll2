@@ -34,4 +34,4 @@ substrings("marcedesbenz", "benzmarcedes", "marcedesbenz", dictionary3)
 { "marcedes" => 2, "benz" => 2, "marcedesbenz" => 2, "benzmarcedes" => 2 }
 
 # Changing a string into an array of substrings
-
+# At this point we 
