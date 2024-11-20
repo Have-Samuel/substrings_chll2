@@ -30,3 +30,14 @@ puts chars[6]
 # word = str[7, str.length - 1] returns 'World' because it starts at index 7 and goes to the end of the string
 # Why does str[7, str.length - 1], begin at 'w' and not 'o'?
 # str[7, str.length - 1] begins at 'W' because the first argument is the starting index, and the second argument is the length of the substring
+
+dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
+
+# puts dictionary[2]
+# puts dictionary[2, 5]
+#  puts dictionary[2..5]
+#  puts dictionary[2...5]
+ puts dictionary[2..-1]
+#  puts dictionary[0, dictionary.length - 1]
+#  puts dictionary[3, dictionary.length - 1]
+#  puts dictionary[4, dictionary.length - 1]
